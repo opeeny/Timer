@@ -1,0 +1,794 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <!-- Title -->
+        <title>Syncmedia | Admin Panel</title>
+        
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta charset="UTF-8">
+        <meta name="description" content="Admin Dashboard Template" />
+        <meta name="keywords" content="admin,dashboard" />
+        <meta name="author" content="Steelcoders" />
+        
+        <!-- Styles -->
+        <link href='' rel='stylesheet' type='text/css'>
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/pace-master/themes/blue/pace-theme-flash.css" rel="stylesheet"/>
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/uniform/css/uniform.default.min.css" rel="stylesheet"/>
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/fontawesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/line-icons/simple-line-icons.css" rel="stylesheet" type="text/css"/>	
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/waves/waves.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/switchery/switchery.min.css" rel="stylesheet" type="text/css"/>
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/3d-bold-navigation/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/slidepushmenus/css/component.css" rel="stylesheet" type="text/css"/>	
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/weather-icons-master/css/weather-icons.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/metrojs/MetroJs.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/toastr/toastr.min.css" rel="stylesheet" type="text/css"/>
+         <link href="http://192.168.0.102/syncmedia/assets/plugins/datatables/css/jquery.datatables.min.css" rel="stylesheet" type="text/css"/>	
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/datatables/css/jquery.datatables_themeroller.css" rel="stylesheet" type="text/css"/>	
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/x-editable/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet" type="text/css">
+        
+        <link href="http://192.168.0.102/syncmedia/assets/plugins/gridgallery/css/component.css" rel="stylesheet" type="text/css"/>
+        <!-- Theme Styles -->
+        <link href="http://192.168.0.102/syncmedia/assets/css/modern.min.css" rel="stylesheet" type="text/css"/>
+        <link href="http://192.168.0.102/syncmedia/assets/css/custom.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/3d-bold-navigation/js/modernizr.js"></script>
+		
+		
+		<link rel="stylesheet" href="http://192.168.0.102/syncmedia/assets/choosen/chosen.css">
+		<style type="text/css" media="all">
+		  /* fix rtl for demo */
+		  .chosen-rtl .chosen-drop { left: -9000px; }
+		</style>
+        
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+         <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+    </head>
+    <body class="page-header-fixed compact-menu page-horizontal-bar">
+        <div class="overlay"></div>
+        <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s1">
+            <h3><span class="pull-left">News</span><a href="javascript:void(0);" class="pull-right" id="closeRight"><i class="fa fa-times"></i></a></h3>
+            <div class="slimscroll">
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar2.png" alt=""><span>Sandra smith<small>Hi! How're you?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar3.png" alt=""><span>Amily Lee<small>Hi! How're you?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar4.png" alt=""><span>Christopher Palmer<small>Hi! How're you?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar5.png" alt=""><span>Nick Doe<small>Hi! How're you?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar2.png" alt=""><span>Sandra smith<small>Hi! How're you?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar3.png" alt=""><span>Amily Lee<small>Hi! How're you?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar4.png" alt=""><span>Christopher Palmer<small>Hi! How're you?</small></span></a>
+                <a href="javascript:void(0);" class="showRight2"><img src="assets/images/avatar5.png" alt=""><span>Nick Doe<small>Hi! How're you?</small></span></a>
+            </div>
+		</nav>
+        <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+            <h3><span class="pull-left">Nation</span> <a href="javascript:void(0);" class="pull-right" id="closeRight2"><i class="fa fa-angle-right"></i></a></h3>
+            <div class="slimscroll chat">
+                <div class="chat-item chat-item-left">
+                    <div class="chat-image">
+                        <img src="assets/images/avatar2.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                       Schools closed due to ..
+                    </div>
+                </div>
+                <div class="chat-item chat-item-right">
+                    <div class="chat-message">
+                        Schools closed due to ..
+                    </div>
+                </div>
+                <div class="chat-item chat-item-left">
+                    <div class="chat-image">
+                        <img src="assets/images/avatar2.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                        Schools closed due to ..
+                    </div>
+                </div>
+                <div class="chat-item chat-item-right">
+                    <div class="chat-message">
+                        Schools closed due to ..
+                    </div>
+                </div>
+                <div class="chat-item chat-item-left">
+                    <div class="chat-image">
+                        <img src="assets/images/avatar2.png" alt="">
+                    </div>
+                    <div class="chat-message">
+                       Schools closed due to ..
+                    </div>
+                </div>
+                <div class="chat-item chat-item-right">
+                    <div class="chat-message">
+                       Schools closed due to ..
+                    </div>
+                </div>
+            </div>
+            <div class="chat-write">
+                <form class="form-horizontal" action="javascript:void(0);">
+                    <input type="text" class="form-control" placeholder="Say something">
+                </form>
+            </div>
+		</nav>
+        <form class="search-form" action="#" method="GET">
+            <div class="input-group">
+                <input type="text" name="search" class="form-control search-input" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default close-search waves-effect waves-button waves-classic" type="button"><i class="fa fa-times"></i></button>
+                </span>
+            </div><!-- Input Group -->
+        </form><!-- Search Form -->
+        <main class="page-content content-wrap">
+            <div class="navbar">
+                <div class="navbar-inner container">
+                    <div class="sidebar-pusher">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic push-sidebar">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <div class="logo-box">
+                      
+					<img src="http://192.168.0.102/syncmedia/assets/images/MonitoringPlus.png" width="200" height="50" title="" class="">
+                    </div><!-- Logo Box -->
+                    <div class="search-button">
+                        <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                    </div>
+                    <div class="topmenu-outer">
+                        <div class="top-menu">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li>		
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic sidebar-toggle"><i class="fa fa-bars"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#cd-nav" class="waves-effect waves-button waves-classic cd-nav-trigger"><i class="fa fa-diamond"></i></a>
+                                </li>
+                                <li>		
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic toggle-fullscreen"><i class="fa fa-expand"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
+                                        <i class="fa fa-cogs"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-md dropdown-list theme-settings" role="menu">
+                                        <li class="li-group">
+                                            <ul class="list-unstyled">
+                                                <li class="no-link" role="presentation">
+                                                    Fixed Header 
+                                                    <div class="ios-switch pull-right switch-md">
+                                                        <input type="checkbox" class="js-switch pull-right fixed-header-check" checked>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="li-group">
+                                            <ul class="list-unstyled">
+                                                <li class="no-link" role="presentation">
+                                                    Fixed Sidebar 
+                                                    <div class="ios-switch pull-right switch-md">
+                                                        <input type="checkbox" class="js-switch pull-right fixed-sidebar-check">
+                                                    </div>
+                                                </li>
+                                                <li class="no-link" role="presentation">
+                                                    Toggle Sidebar 
+                                                    <div class="ios-switch pull-right switch-md">
+                                                        <input type="checkbox" class="js-switch pull-right toggle-sidebar-check">
+                                                    </div>
+                                                </li>
+                                                <li class="no-link" role="presentation">
+                                                    Compact Menu 
+                                                    <div class="ios-switch pull-right switch-md">
+                                                        <input type="checkbox" class="js-switch pull-right compact-menu-check" checked>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="no-link"><button class="btn btn-default reset-options">Reset Options</button></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>	
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="badge badge-success pull-right">4</span></a>
+                                    <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
+                                        <li><p class="drop-title">You have 4 new  messages !</p></li>
+                                        <li class="dropdown-menu-list slimscroll messages">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online on"></div><img class="img-circle" src="assets/images/avatar2.png" alt=""></div>
+                                                        <p class="msg-name">Sandra Smith</p>
+                                                        <p class="msg-text">Hey ! I'm working on your project</p>
+                                                        <p class="msg-time">3 minutes ago</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online off"></div><img class="img-circle" src="assets/images/avatar4.png" alt=""></div>
+                                                        <p class="msg-name">Amily Lee</p>
+                                                        <p class="msg-text">Hi David !</p>
+                                                        <p class="msg-time">8 minutes ago</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online off"></div><img class="img-circle" src="assets/images/avatar3.png" alt=""></div>
+                                                        <p class="msg-name">Christopher Palmer</p>
+                                                        <p class="msg-text">See you soon !</p>
+                                                        <p class="msg-time">56 minutes ago</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online on"></div><img class="img-circle" src="assets/images/avatar5.png" alt=""></div>
+                                                        <p class="msg-name">Nick Doe</p>
+                                                        <p class="msg-text">Nice to meet you</p>
+                                                        <p class="msg-time">2 hours ago</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online on"></div><img class="img-circle" src="assets/images/avatar2.png" alt=""></div>
+                                                        <p class="msg-name">Sandra Smith</p>
+                                                        <p class="msg-text">Hey ! I'm working on your project</p>
+                                                        <p class="msg-time">5 hours ago</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="msg-img"><div class="online off"></div><img class="img-circle" src="assets/images/avatar4.png" alt=""></div>
+                                                        <p class="msg-name">Amily Lee</p>
+                                                        <p class="msg-text">Hi David !</p>
+                                                        <p class="msg-time">9 hours ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="drop-all"><a href="#" class="text-center">All Messages</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown"><i class="fa fa-bell"></i><span class="badge badge-success pull-right">3</span></a>
+                                    <ul class="dropdown-menu title-caret dropdown-lg" role="menu">
+                                        <li><p class="drop-title">You have 3 pending tasks !</p></li>
+                                        <li class="dropdown-menu-list slimscroll tasks">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="task-icon badge badge-success"><i class="icon-user"></i></div>
+                                                        <span class="badge badge-roundless badge-default pull-right">1min ago</span>
+                                                        <p class="task-details">New user registered.</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="task-icon badge badge-danger"><i class="icon-energy"></i></div>
+                                                        <span class="badge badge-roundless badge-default pull-right">24min ago</span>
+                                                        <p class="task-details">Database error.</p>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div class="task-icon badge badge-info"><i class="icon-heart"></i></div>
+                                                        <span class="badge badge-roundless badge-default pull-right">1h ago</span>
+                                                        <p class="task-details">Reached 24k likes</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="drop-all"><a href="#" class="text-center">All Tasks</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle waves-effect waves-button waves-classic" data-toggle="dropdown">
+                                        <span class="user-name">paul<i class="fa fa-angle-down"></i></span>
+                                        <img class="img-circle avatar" src="assets/images/avatar1.png" width="40" height="40" alt="">
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-list" role="menu">
+                                        <li role="presentation"><a href="#"><i class="fa fa-user"></i>Profile</a></li>
+                                        <li role="presentation"><a href="#"><i class="fa fa-calendar"></i>Calendar</a></li>
+                                        <li role="presentation"><a href="#"><i class="fa fa-envelope"></i>Inbox<span class="badge badge-success pull-right">4</span></a></li>
+                                        <li role="presentation" class="divider"></li>
+                                        <li role="presentation"><a href="#"><i class="fa fa-lock"></i>Lock screen</a></li>
+                                        <li role="presentation">
+                                            
+                                            <a href="http://192.168.0.102/syncmedia/index.php/auth/logout"><i class="fa fa-sign-out m-r-xs"></i>Log out</a>
+                                        
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="waves-effect waves-button waves-classic" id="showRight">
+                                        <i class="fa fa-comments"></i>
+                                    </a>
+                                </li>
+                            </ul><!-- Nav -->
+                        </div><!-- Top Menu -->
+                    </div>
+                </div>
+            </div><!-- Navbar -->
+            			 <link href="http://192.168.0.102/syncmedia/assets/css/menu.css" rel="stylesheet"/>
+<div class="page-sidebar sidebar horizontal-bar">
+                <div class="page-sidebar-inner">
+                    <ul class="menu accordion-menu">
+						<li class="nav-heading"><span>Navigation</span></li> 
+													
+							<li class="droplink"><a href="#"><span class="menu-icon icon-speedometer"></span><p>Dashboard </p><span class="arrow"></span></a>
+														<ul class="sub-menu">
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/dashboard/index">Dashboard</a></li>
+															                            
+							</ul>
+																				
+							<li class="droplink"><a href="#"><span class="menu-icon icon-earphones"></span><p>Media Monitoring </p><span class="arrow"></span></a>
+														<ul class="sub-menu">
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/electronic/index/1">Electronic Media</a></li>
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/printmedia/index/1">Print Media</a></li>
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/editorial/index/4">Editorial Monitoring</a></li>
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/outdoor/index/1">Outdoor Monitoring</a></li>
+															                            
+							</ul>
+																				
+							<li class="droplink"><a href="#"><span class="menu-icon icon-settings"></span><p>Settings </p><span class="arrow"></span></a>
+														<ul class="sub-menu"> 
+								<div class="dropdown_5columns">
+																		<div class="col_1">
+										   <h5>Global</h5>
+                                                                                           <li><a href="http://192.168.0.102/syncmedia/index.php/settings/agencies">Agencies</a></li>
+                                                                                           <li><a href="http://192.168.0.102/syncmedia/index.php/settings/companies">Companies/Clients</a></li>
+                                                                                           <li><a href="http://192.168.0.102/syncmedia/index.php/settings/brands">Brands</a></li>
+                                                                                           <li><a href="http://192.168.0.102/syncmedia/index.php/settings/subbrands">Sub Brands</a></li>
+                                                                                           <li><a href="http://192.168.0.102/syncmedia/index.php/settings/programs">Programs</a></li>
+                                                                                           <li><a href="http://192.168.0.102/syncmedia/index.php/settings/subsectors">Sub-Sectors</a></li>
+                                                                                </div>
+																		
+									<div class="col_1">
+																				<h5>Advertising</h5>
+											                                                <li><a href="http://192.168.0.102/syncmedia/index.php/settings/spots">Spots</a></li>
+                                            																			   									</div>
+									
+									                                     
+									                                      <div class="col_1">
+									   <h5>Editorial</h5>
+									                                                <li><a href="http://192.168.0.102/syncmedia/index.php/settings/editorial_source">Source</a></li>
+                                                                                    <li><a href="http://192.168.0.102/syncmedia/index.php/settings/editorial_location">Prominence</a></li>
+                                                                                    <li><a href="http://192.168.0.102/syncmedia/index.php/settings/journalist">Journalists</a></li>
+                                                                                    <li><a href="http://192.168.0.102/syncmedia/index.php/settings/category">Categories</a></li>
+                                                                                    <li><a href="http://192.168.0.102/syncmedia/index.php/settings/keywords">Keywords</a></li>
+                                                                                    <li><a href="http://192.168.0.102/syncmedia/index.php/settings/themes">Themes</a></li>
+                                                                             
+                                            
+                                      </div>
+									  								</div>								
+							</ul>
+																				
+							<li class="droplink"><a href="#"><span class="menu-icon icon-briefcase"></span><p>Daily Logs </p><span class="arrow"></span></a>
+														<ul class="sub-menu">
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/logs/editorial">Editorial Monitoring</a></li>
+															                            
+							</ul>
+																				
+							<li class="droplink"><a href="#"><span class="menu-icon icon-book-open"></span><p>Reports </p><span class="arrow"></span></a>
+														<ul class="sub-menu">
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/reports/daily_logs">Daily Logs</a></li>
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/reports/editorial_reports">Editorial Logs</a></li>
+															                            
+							</ul>
+																				
+							<li class="droplink"><a href="#"><span class="menu-icon icon-user"></span><p>Users </p><span class="arrow"></span></a>
+														<ul class="sub-menu">
+														 
+									<li><a href="http://192.168.0.102/syncmedia/index.php/auth/view_users/1">System Users</a></li>
+															                            
+							</ul>
+													                    </ul>
+                </div>
+            </div>
+            <div class="page-inner">
+                <div class="page-breadcrumb">
+                    <ol class="breadcrumb container">
+                        <li><a href="index.html">Electronic</a></li>
+                        <li class="active">Select_media</li>
+                    </ol>
+                </div>
+               
+				
+								
+				                <div id="main-wrapper" class="container">
+                   <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-white">
+                            <div class="panel-body">
+
+                                	<script src="http://192.168.0.102/syncmedia/assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+		
+	<ul class="nav nav-tabs" role="tablist" >
+										<li role="presentation" class="active"><a href="http://192.168.0.102/syncmedia/index.php/electronic/index/1" ><i class="fa fa-pencil m-r-xs"></i>Advanced Data Entry </a></li>
+										<li role="presentation" class=""><a href="http://192.168.0.102/syncmedia/index.php/electronic/index/3" ><i class="fa fa-pencil m-r-xs"></i>Simple Data Entry </a></li>
+										<li role="presentation" class=""><a href="http://192.168.0.102/syncmedia/index.php/electronic/index/2" ><i class="fa fa-folder-open m-r-xs"></i>Manage Logs </a></li>
+										<li role="presentation" class=""><a href="http://192.168.0.102/syncmedia/index.php/programs/monitor_programs/4" ><i class="fa  fa-pencil-square m-r-xs"></i>Programs Entry </a></li>
+										<li role="presentation" class=""><a href="http://192.168.0.102/syncmedia/index.php/programs/manage_programs/5" ><i class="fa fa-folder-open m-r-xs"></i>Manage Programs </a></li>
+								
+	</ul>
+ 
+ <div id="title_bar">	
+	
+		<div id="title" class="float_left">Electronic Media Monitoring</div>
+			
+	</div>
+														
+														
+							<div id="loading"></div>
+
+<div class="row">
+	 <div class="col-xs-12 col-md-8">
+				<div class="panel-body">
+							<form action="http://192.168.0.102/syncmedia/index.php/electronic/select_media/1" class="form-horizontal" method="post" accept-charset="utf-8">
+									<div class="form-group">
+													<label for="input-Default" class="col-sm-2 control-label">Date:</label>
+													<div class="col-sm-10">
+																	<input type="text" name="date" value="2019-07-02" class="form-control date-picker" id="input-readonly"  />
+																	
+													</div>
+											</div>
+									
+									  <div class="form-group">
+																<label for="input-placeholder" class="col-sm-2 control-label">Media:</label>
+																<div class="col-sm-10">
+																		<select name="media_id" data-placeholder="Select Media..." class="chosen-select" tabindex="1" id="media">
+<option value="" selected="selected">Select Media</option>
+<option value="12"> Radio simba 97.3</option>
+<option value="80">A-ONE LTD</option>
+<option value="79">A1 OUTDOOR LTD</option>
+<option value="82">ACCESS ADVERTISING</option>
+<option value="107">ACCESS FM 96.3</option>
+<option value="77">ADLINK (U) LTD</option>
+<option value="45">ADMAN SOURCE AND CONTRACTS LTD</option>
+<option value="74">ADTRANZ NALUKOLONGO LTD</option>
+<option value="78">ADVERTISING DESIGNERS LTD</option>
+<option value="18">Akaboozi 87.9 FM</option>
+<option value="53">ALLIANCE MEDIA</option>
+<option value="13">ARUA ONE 88.70</option>
+<option value="54">ATOM OUT DOOR LTD</option>
+<option value="31">BABA FM </option>
+<option value="47">BBS TV</option>
+<option value="3">Beat FM 96.3</option>
+<option value="61">BICYCLE ADVERTISING UGANDA</option>
+<option value="98">BIG FM 97.6</option>
+<option value="8">BUKEDDE FM 100.5</option>
+<option value="84">BUKEDDE NEWS PAPER</option>
+<option value="9">BUKEDDE TV</option>
+<option value="100">BUSHENYI FM 92.2</option>
+<option value="116">BUSOGA ONE</option>
+<option value="2">Capital FM 91.3</option>
+<option value="44">Capital Outdoor Advertising Co. Ltd</option>
+<option value="4">CBS 88.8</option>
+<option value="5">CBS 89.2 (Emanduso)</option>
+<option value="66">CITY CLOCK (U) LTD</option>
+<option value="65">CLEAR PRINTS</option>
+<option value="75">CONCEPT X</option>
+<option value="58">CONTACT GRAPHICS LTD</option>
+<option value="117">CONTINENTAL FM 98.3</option>
+<option value="81">CORPCOM UGANDA</option>
+<option value="37">Crooze FM 91.2</option>
+<option value="42">DAILY MONITOR</option>
+<option value="68">DEFINITE LINK UGANDA LTD</option>
+<option value="93">DELTA FM 97.0</option>
+<option value="7">DEMBE FM 90.4</option>
+<option value="57">DEXTRA UGANDA LTD</option>
+<option value="20">DIGIDA FM</option>
+<option value="101">EAST FM 100.2</option>
+<option value="104">EASTERN VOICE RADIO 102.3 FM</option>
+<option value="14">Etop 99.4 FM</option>
+<option value="23">GALAXY FM 100.2</option>
+<option value="59">GRAND MEDIA</option>
+<option value="76">iAX-PROMOTIONS</option>
+<option value="67">IMAGE CRUSADE ADVERTISING / PR LTD</option>
+<option value="21">IMPACT FM 98.4</option>
+<option value="64">INFINITY MEDIA</option>
+<option value="118">JOGOO FM 93.8</option>
+<option value="106">JUBILEE RADIO 105.6</option>
+<option value="86">KAMPALA SUN</option>
+<option value="6">KFM 93.3</option>
+<option value="88">KRC RADIO 102</option>
+<option value="95">KYOGA VERITAS RADIO 91.5</option>
+<option value="38">LIBERTY RADIO 89.0 </option>
+<option value="63">MBM ADVERTISING</option>
+<option value="55">MEDIA DISPLAY LTD</option>
+<option value="30">MEGA FM </option>
+<option value="33">NBS RADIO</option>
+<option value="46">NBS TV</option>
+<option value="41">NEW VISION</option>
+<option value="56">NSAMBO MEDIA LTD</option>
+<option value="10">NTV</option>
+<option value="27">OPEN GATE FM</option>
+<option value="92">ORUMURI</option>
+<option value="69">OUT DOOR CONTACT GROUP OF COMPANIES</option>
+<option value="113">PEARL FM 107.9</option>
+<option value="83">POWER FM 104.1</option>
+<option value="70">PRIME OUTDOOR NETWORK</option>
+<option value="109">QFM 94.30</option>
+<option value="102">RADIO APAC 92.9 FM</option>
+<option value="96">RADIO BUDDU 98.8 FM</option>
+<option value="22">RADIO CITY 97.0</option>
+<option value="105">RADIO HOIMA 88.6</option>
+<option value="34">Radio One</option>
+<option value="111">RADIO ONE JUBA</option>
+<option value="39">RADIO PACIS 90.9</option>
+<option value="32">RADIO PACIS 94.5</option>
+<option value="16">Radio Rupiny 95.7FM</option>
+<option value="108">RADIO WA 89.80</option>
+<option value="15">Radio West 100.2FM</option>
+<option value="48">RED PEPPER</option>
+<option value="110">RWENZORI FM 89.7</option>
+<option value="112">SALT FM 107.0FM</option>
+<option value="24">SANYU FM 88.2</option>
+<option value="52">SATURDAY MONITOR </option>
+<option value="87">SATURDAY PEPPER</option>
+<option value="51">SATURDAY VISION</option>
+<option value="71">SIGN CARE LTD</option>
+<option value="89">SIGNAL FM 88.1</option>
+<option value="99">SMART FM 89</option>
+<option value="60">SMS MEDIA</option>
+<option value="115">SPARK TV</option>
+<option value="36">SPICE FM 89.9</option>
+<option value="103">SPIRIT FM KOBOKO 104.5</option>
+<option value="62">STANDARD SIGNS (U) LTD</option>
+<option value="40">STEP FM 99.8</option>
+<option value="50">SUNDAY MONITOR</option>
+<option value="85">SUNDAY PEPPER</option>
+<option value="49">SUNDAY VISION</option>
+<option value="25">SUPER FM 88.5</option>
+<option value="72">TBWA LIMELIGHT ADVERTISING</option>
+<option value="73">THE EYE MAGAZINE UGANDA</option>
+<option value="91">THE OBSERVER</option>
+<option value="97">TV WEST</option>
+<option value="114">UBC TV</option>
+<option value="26">UNITY FM 97.70</option>
+<option value="11">URBAN TV</option>
+<option value="35">Vision Radio 89.1</option>
+<option value="28">VOICE OF KAMWENGE</option>
+<option value="43">VOICE OF KIGEZI 89.5</option>
+<option value="90">VOICE OF LANGO FM 88.00</option>
+<option value="94">VOICE OF TESO FM 88.4</option>
+<option value="29">VOICE OF TORO</option>
+<option value="17">XFM 94.8</option>
+</select>
+															
+																</div>
+												</div>
+											
+											<div class="form-group">
+																<div class="col-sm-offset-2 col-sm-10">
+																				<button type="submit" class="btn btn-success">Select Media</button>
+																</div>
+											</div>
+									
+							</form>				</div>			
+			</div>
+</div>
+
+
+
+<script>
+	$(document).ready(function() {
+			
+					
+					
+					$('#brandid').on('change', function (){
+					$("#loading").html('<div style="text-align:center"><img src="'+baseurl+'assets/images/loading.gif" alt="Loading" width="100" height="100" align="absmiddle" />...loading please wait</div>');
+						$.ajax({
+									url : "http://192.168.0.102/syncmedia/index.php/electronic/get_subbrands",
+									type : 'post',
+									data : {'brandid':$('#brandid').val()},
+									success: function(data)
+									{
+											 $('#subbrandid').html(options);
+												$("#loading").html('');
+									}
+						});
+			});
+					
+					$('#subbrandid').on('change', function (){
+					$("#fetching_spots").html('<div style="text-align:center"><img src="'+baseurl+'assets/images/ajax-loader.gif" alt="Loading" width="100" height="100" align="absmiddle" />...loading please wait</div>');
+						$.ajax({
+									url : "http://192.168.0.102/syncmedia/index.php/electronic/get_spots",
+									type : 'post',
+									data : {'subbrandid':$('#subbrandid').val()},
+									dataType:'json',
+									success: function(data)
+									{
+												var options = '';
+												for (var x = 0; x < data.length; x++) {
+														 	if(data[x]['id'] > 6370)
+																{
+																	 if(data[x]['time_id'] == 1)
+																		{
+																				var time_id = "Sec";
+																				
+																		} else {
+																			
+																			var time_id = "Min";
+																			
+																		}
+																	options += '<option value="' + data[x]['id'] + '">' + data[x]['name'] + '[' + data[x]['duration'] + time_id + ']' + '</option>';
+																	
+																} else {
+																	
+																	options += '<option value="' + data[x]['id'] + '">' + data[x]['name'] + '</option>';
+																	
+																}
+																
+												}
+												
+												$('#spotid').html(options);
+												$("#fetching_spots").html('');
+									}
+						});
+					
+		
+			});
+					
+			//sp[ot features
+			$('#spotid').on('change', function (){
+			$("#spot_features").html('<div style="text-align:center"><img src="'+baseurl+'assets/images/wheel.gif" alt="Loading" width="100" height="100" align="absmiddle" />...loading please wait</div>');
+				$.ajax({
+									url : "http://192.168.0.102/syncmedia/index.php/electronic/get_spots_features",
+									type : 'post',
+									data : {'spotid':$('#spotid').val()},
+									success: function(data)
+									{
+												$('#spot_features').html(data);
+									}
+				});
+		});
+			
+		
+			
+	});
+	
+	
+</script>
+
+	
+                                                   </div>
+                         </div>
+                    </div>
+                   </div>
+				                     
+                </div><!-- Main Wrapper -->
+                <div class="page-footer">
+                    <div class="container">
+                        <p class="no-s">2017 &copy; Syncmedia | Admin Panel.</p>
+                    </div>
+                </div>
+            </div><!-- Page Inner -->
+        </main><!-- Page Content -->
+        <nav class="cd-nav-container" id="cd-nav">
+            <header>
+                <h3>Navigation</h3>
+                <a href="#0" class="cd-close-nav">Close</a>
+            </header>
+            <ul class="cd-nav list-unstyled">
+                <li class="cd-selected" data-menu="index">
+                    <a href="javsacript:void(0);">
+                        <span>
+                            <i class="glyphicon glyphicon-home"></i>
+                        </span>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li data-menu="profile">
+                    <a href="javsacript:void(0);">
+                        <span>
+                            <i class="glyphicon glyphicon-user"></i>
+                        </span>
+                        <p>Profile</p>
+                    </a>
+                </li>
+                <li data-menu="inbox">
+                    <a href="javsacript:void(0);">
+                        <span>
+                            <i class="glyphicon glyphicon-envelope"></i>
+                        </span>
+                        <p>Mailbox</p>
+                    </a>
+                </li>
+                <li data-menu="#">
+                    <a href="javsacript:void(0);">
+                        <span>
+                            <i class="glyphicon glyphicon-tasks"></i>
+                        </span>
+                        <p>Tasks</p>
+                    </a>
+                </li>
+                <li data-menu="#">
+                    <a href="javsacript:void(0);">
+                        <span>
+                            <i class="glyphicon glyphicon-cog"></i>
+                        </span>
+                        <p>Settings</p>
+                    </a>
+                </li>
+                <li data-menu="calendar">
+                    <a href="javsacript:void(0);">
+                        <span>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                        </span>
+                        <p>Calendar</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cd-overlay"></div>
+		
+
+       
+        
+                <script src="http://192.168.0.102/syncmedia/assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+				<script src="http://192.168.0.102/syncmedia/assets/js/reports.js"></script>
+		<script src="http://192.168.0.102/syncmedia/assets/js/client.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/pace-master/pace.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/jquery-blockui/jquery.blockui.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/switchery/switchery.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/uniform/jquery.uniform.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/classie/classie.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/waves/waves.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/3d-bold-navigation/js/main.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/jquery-mockjax-master/jquery.mockjax.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/moment/moment.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/datatables/js/jquery.datatables.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/x-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/js/modern.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/js/pages/table-data.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/datatables/js/jquery.datatables.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/x-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/js/print_file_upload.js"></script>
+		<script src="http://192.168.0.102/syncmedia/assets/choosen/chosen.jquery.js" type="text/javascript"></script>
+		<script src="http://192.168.0.102/syncmedia/assets/choosen/prism.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://192.168.0.102/syncmedia/assets/plugins/gridgallery/js/imagesloaded.pkgd.min.js"></script>
+		<script src="http://192.168.0.102/syncmedia/assets/plugins/gridgallery/js/masonry.pkgd.min.js"></script>
+		<script src="http://192.168.0.102/syncmedia/assets/plugins/gridgallery/js/classie.js"></script>
+		<script src="http://192.168.0.102/syncmedia/assets/plugins/gridgallery/js/cbpgridgallery.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/js/modern.min.js"></script>
+        <script src="http://192.168.0.102/syncmedia/assets/js/pages/gallery.js"></script>
+		
+		<script type="text/javascript">
+			
+		  $('.datepicker').datepicker({format: 'dd-mm-yyyy'});
+			
+		  var config = {
+			'.chosen-select'           : {},
+			'.chosen-select-deselect'  : {allow_single_deselect:true},
+			'.chosen-select-no-single' : {disable_search_threshold:10},
+			'.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+			'.chosen-select-width'     : {width:"50%"}
+		  }
+		  for (var selector in config) {
+			$(selector).chosen(config[selector]);
+		  }
+		</script>
+        
+    </body>
+</html>
